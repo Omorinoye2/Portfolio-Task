@@ -11,18 +11,33 @@
   }
 .header{display:flex;
 
+
   }
   
 .main{
     display:flex;
     padding:20px;
-    
+    justify-content: space-between;
+    font-size: 25px;
+    color: blue
+  
 }
-.Details{
+
+.hero-banner{
+    display:flex;
     justify-content: flex-end;
+    margin-top: 30px;
+    font-size: 25px;
+    color: blue;
 }
-
-
+.hero-banner {
+        margin-top:20px;
+        background-image: url("../images/02-hero-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1000px;
+        background-color: rgb(230, 215, 173);
+}
   h1 
   h2,
   h3,

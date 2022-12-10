@@ -23,29 +23,82 @@
   
 }
 
+/* hero banner..[ The future of life is tech */
 .hero-banner{
     display:flex;
-    justify-content: flex-end;
+    justify-content: end;
     margin-top: 30px;
     font-size: 25px;
-    color: blue;
+    color: rgb(255, 72, 0);
 }
+
+ /* hero banner ...background image of banner*/
 .hero-banner {
         margin-top:20px;
         background-image: url("../images/02-hero-bg.jpg");
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: 1000px;
-        background-color: rgb(230, 215, 173);
+        background-position:center;
+        background-size: 1500px;
+        /* background-color: rgb(230, 215, 173); */
 }
+/*This targets my name on the screen */
+.name{
+    background-image: url("../images/pic 1.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex; 
+}
+/* .Me{
+    display: flex;
+    justify-content: end;
+}     */
+
+.page-wrapper{
+  display: flex;
+  height: 1200px;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  background-image: url("../images/02-portfolio-4.jpg")
+
+}
+  
+  
+
+.page-section{
+  background: rgb(0,0,0,0.7);
+  width: 100%;
+  padding: 20px 40px;
+  color: rgb(25, 167, 32);
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+    
+}
+.text{
+    display: flex;
+}
+   
+a:link {
+    color: rgb(139, 34, 34);
+    text-decoration-color: hotpink;
+}
+
   h1 
   h2,
   h3,
   h4,
   h5,
-  h6 {
-    margin: 0;
+  h6
+  { 
+  margin: 0;
   }
+
   
   p {
     margin: 0;
